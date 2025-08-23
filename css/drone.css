@@ -303,7 +303,9 @@ input[type='email']::placeholder{
   justify-content: center;
   align-items: center;
 }
-
+.footer-btn img{
+  max-width: none;
+}
 .footer-bottom-p{
   display: flex;
   justify-content: space-between;

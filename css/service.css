@@ -97,6 +97,10 @@ ul {
   border: none;
   border-radius: 4px;
 }
+/* banner */
+.carousel-caption{
+  display: block !important;
+}
 /* service-content-1 */
 .service-content-1 p {
   font-size: 16px;
@@ -153,12 +157,17 @@ ul {
   min-height: 460px;
   height: 100%;
   padding: 15px;
+  position: relative;
+  overflow: hidden;
 }
 .card-p-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
   display: flex;
+  align-items: flex-start;
   gap: 20px;
   flex-wrap: wrap;
-  transform: translateY(59vh);
 }
 .card-p-btn span {
   font-size: clamp(7px, 5vw, 20px);
@@ -315,7 +324,9 @@ input[type='email']::placeholder{
   justify-content: center;
   align-items: center;
 }
-
+.footer-btn img{
+  max-width: none;
+}
 .footer-bottom-p{
   display: flex;
   justify-content: space-between;
