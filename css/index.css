@@ -57,7 +57,7 @@ ul {
 }
 .nav-link {
   color: #111111;
-  font-size: 13px;
+  font-size: clamp(10px,1.1vw,13px);
   font-family: "Orbitron", sans-serif;
   font-weight: 500;
 }
@@ -72,7 +72,7 @@ ul {
 }
 .nav-icons li a {
   margin-left: 28px;
-  transform: translateY(1.3vh);
+  transform: translateY(clamp(0.5vh,1.3vh,2vh));
 }
 .nav-link:hover {
   color: #e75e0f;
@@ -102,7 +102,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 80%;
+  min-height: 100vh;
   position: relative;
   top: 22vh;
 }
@@ -142,7 +142,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  min-height: 100vh;
 }
 .service-heading h2 {
   font-family: "Orbitron", sans-serif;
@@ -297,11 +297,11 @@ section:last-of-type {
   margin-top: 30px;
 }
 .approach {
-  background-image: url("../images/home-img/Group\ 94.png");
+  background-image: url("../images/home-img/silhouette-hovering-mid-air-capturing-backlit-sunset-generated-by-ai\ 1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 .approach-heading-bottom {
   background-color: #696968;
@@ -322,7 +322,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  min-height: 100vh;
 }
 .review-heading-top {
   background-color: #696968;
@@ -443,7 +443,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 110vh;
+  min-height: 100vh;
 }
 .credibility-cards img {
   width: 100%;
