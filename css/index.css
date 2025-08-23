@@ -294,7 +294,7 @@ section:last-of-type {
   font-size: 24px;
   font-family: "Orbitron", sans-serif;
   color: #5b5b5a;
-  margin-top: 30px;
+  margin-top: clamp(10px,5vh,30px);
 }
 .approach {
   background-image: url("../images/home-img/silhouette-hovering-mid-air-capturing-backlit-sunset-generated-by-ai\ 1.png");
@@ -311,6 +311,11 @@ section:last-of-type {
   color: #ff9f24;
   position: relative;
   top: 110.2vh;
+}
+.video-img img{
+  margin: 0 auto;
+  margin-top: clamp(60px,15vh,130px);
+  height: clamp(50px,14vw,130px);
 }
 /* reviews */
 
