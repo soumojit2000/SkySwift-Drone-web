@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRONES</title>
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/solid.min.css"
+    />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/drone.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-light" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./images/home-img/ChatGPT Image May 23, 2025, 05_26_52 PM 1.png"
+              alt="logo"
+            />
+            <img src="./images/home-img/SkySwift.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="drone.html">Drones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="nav-icons">
+            <li>
+              <a href="#" id="searchIcon">
+                <img
+                  src="./images/home-img/material-symbols_search.png"
+                  alt="icon"
+                />
+              </a>
+
+              <!-- Hidden Search Box -->
+              <div class="search-box" id="searchBox">
+                <input type="text" placeholder="Search..." />
+              </div>
+            </li>
+            <li>
+              <a href="login.html">
+                <img
+                  src="./images/home-img/mdi_account-outline.png"
+                  alt="icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="drone-list section-padding">
+        <div class="container">
+          <h2>Wedding photography/ videography</h2>
+
+          <div class="row drone-filter-list">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3 mb-5">
+              <div class="filter-box p-3 mt-5">
+                <h5 class="fw-bold mb-3">Filter</h5>
+
+                <!-- Categories -->
+                <div class="mb-4">
+                  <h6 class="fw-bold text-uppercase small">Categories</h6>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="cat1"
+                      checked
+                    />
+                    <label class="form-check-label" for="cat1"
+                      >Wedding photography/ Videography</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="cat2" />
+                    <label class="form-check-label" for="cat2"
+                      >Travel photography</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="cat3" />
+                    <label class="form-check-label" for="cat3">Delivery</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="cat4" />
+                    <label class="form-check-label" for="cat4"
+                      >Agricultural Needs</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="cat5" />
+                    <label class="form-check-label" for="cat5"
+                      >LIDAR Survey</label
+                    >
+                  </div>
+                </div>
+
+                <!-- Brands -->
+                <div class="mb-4">
+                  <h6 class="fw-bold text-uppercase small">Brands</h6>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="b1"
+                    /><label class="form-check-label" for="b1">DJI</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="b2"
+                    /><label class="form-check-label" for="b2">IZI</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="b3"
+                    /><label class="form-check-label" for="b3">Zenmuse</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="b4"
+                    /><label class="form-check-label" for="b4">Naga pro</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="b5"
+                    /><label class="form-check-label" for="b5">Vidyut</label>
+                  </div>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-4">
+                  <h6 class="fw-bold text-uppercase small">Price</h6>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="p1"
+                    /><label class="form-check-label" for="p1"
+                      >Under $100</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="p2"
+                    /><label class="form-check-label" for="p2"
+                      >$100 - $500</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="p3"
+                    /><label class="form-check-label" for="p3"
+                      >$500 - $1000</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="p4"
+                    /><label class="form-check-label" for="p4"
+                      >Over $1000</label
+                    >
+                  </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="d-flex gap-2">
+                  <button class="btn btn-warning flex-fill fw-bold">
+                    Apply All
+                  </button>
+                  <button class="btn btn-outline-secondary flex-fill fw-bold">
+                    Clear All
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9 drone-cards">
+              <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="drone-card text-center">
+                    <img
+                      src="./images/drone-img/image 44.png"
+                      alt="DJI Avata"
+                      class="img-fluid p-3 card-img-top object-fit-cover" style="height: 158px;"
+                    />
+                    <p class="price">From $528 USD</p>
+                    <h6 class="fw-bold">DJI Avata</h6>
+                    <button class="btn btn-warning w-100 mt-2">Book Now</button>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="drone-card text-center">
+                    <img
+                      src="./images/drone-img/image 24 (1).png"
+                      alt="DJI Air 3S"
+                      class="img-fluid p-3 card-img-top object-fit-cover" style="height: 158px;"
+                    />
+                    <p class="price">From $528 USD</p>
+                    <h6 class="fw-bold">DJI Air 3S</h6>
+                    <button class="btn btn-warning w-100 mt-2">Book Now</button>
+                  </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="drone-card text-center">
+                    <img
+                      src="./images/drone-img/image 23 (1).png"
+                      alt="DJI Flip"
+                      class="img-fluid p-3 card-img-top object-fit-cover" style="height: 158px;"
+                    />
+                    <p class="price">$250 USD</p>
+                    <h6 class="fw-bold">DJI Flip</h6>
+                    <button class="btn btn-warning w-100 mt-2">Book Now</button>
+                  </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="drone-card text-center">
+                    <img
+                      src="./images/drone-img/image 37.png"
+                      alt="DJI Mavic 2Pro"
+                      class="img-fluid p-3 card-img-top object-fit-cover" style="height: 158px;"
+                    />
+                    <p class="price">$300 USD</p>
+                    <h6 class="fw-bold">DJI Mavic 2Pro</h6>
+                    <button class="btn btn-warning w-100 mt-2">Book Now</button>
+                  </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="drone-card text-center">
+                    <img
+                      src="./images/drone-img/image 38.png"
+                      alt="Mavic Pro Platinum"
+                      class="img-fluid p-3 card-img-top object-fit-cover" style="height: 158px;"
+                    />
+                    <p class="price">$349 USD</p>
+                    <h6 class="fw-bold">Mavic Pro Platinum</h6>
+                    <button class="btn btn-warning w-100 mt-2">Book Now</button>
+                  </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="drone-card text-center">
+                    <img
+                      src="./images/drone-img/image 36.png"
+                      alt="DJI Mavic 4Pro"
+                      class="img-fluid p-3 card-img-top object-fit-cover" style="height: 158px;"
+                    />
+                    <p class="price">$250 USD</p>
+                    <h6 class="fw-bold">DJI Mavic 4Pro</h6>
+                    <button class="btn btn-warning w-100 mt-2">Book Now</button>
+                  </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="drone-card text-center">
+                    <img
+                      src="./images/drone-img/image 41.png"
+                      alt="DJI Mavic 2Pro"
+                      class="img-fluid p-3 card-img-top object-fit-cover" style="height: 158px;"
+                    />
+                    <p class="price">$320 USD</p>
+                    <h6 class="fw-bold">DJI Mavic 2Pro</h6>
+                    <button class="btn btn-warning w-100 mt-2">Book Now</button>
+                  </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="drone-card text-center">
+                    <img
+                      src="./images/drone-img/Screenshot 2025-05-18 192359 1 (1).png"
+                      alt="IZI Spectra Combo"
+                      class="img-fluid p-3 card-img-top object-fit-cover" style="height: 158px;"
+                    />
+                    <p class="price">$349 USD</p>
+                    <h6 class="fw-bold">IZI Spectra Combo</h6>
+                    <button class="btn btn-warning w-100 mt-2">Book Now</button>
+                  </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="col-12 col-sm-4 col-md-4">
+                  <div class="drone-card text-center">
+                    <img
+                      src="./images/drone-img/image 42.png"
+                      alt="DJI Inspire3"
+                      class="img-fluid p-3 card-img-top object-fit-cover" style="height: 158px;"
+                    />
+                    <p class="price">$1020 USD</p>
+                    <h6 class="fw-bold">DJI Inspire3</h6>
+                    <button class="btn btn-warning w-100 mt-2">Book Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pagination">
+            <button class="page-btn prev" disabled>&lt;</button>
+            <button class="page-btn active">1</button>
+            <a href="drone-2.html"><button class="page-btn">2</button></a>
+            <button class="page-btn">3</button>
+            <button class="page-btn">4</button>
+            <a href="drone-2.html"><button class="page-btn next">&gt;</button></a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="row footer-row">
+            <div class="col-12 col-sm-4 col-md-4 footer-item-1">
+              <h3>Get In Touch</h3>
+              <figure>
+                <a href="#"
+                  ><img src="./images/home-img/Group 54.png" alt=""
+                /></a>
+              </figure>
+              <figure>
+                <a href="#"
+                  ><img src="./images/home-img/Group 55.png" alt=""
+                /></a>
+              </figure>
+            </div>
+
+            <div class="col-12 col-sm-4 col-md-4 footer-item-2">
+              <figure>
+                <a href="#"
+                  ><img src="./images/home-img/Group 94 (1).png" alt=""
+                /></a>
+              </figure>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. nuhbh
+                mvdq juhgfd jjkkk Maecenas viverra t aliquet.
+              </p>
+              <figure class="footer-icons">
+                <a href="#">
+                  <img src="./images/home-img/Group 50.png" alt="" />
+                </a>
+              </figure>
+            </div>
+
+            <div class="col-12 col-sm-4 col-md-4 footer-item-3">
+              <h3>Newsletter</h3>
+              <p>
+                Sign up oue newsletter to get update information, news and free
+                insight.
+              </p>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+              />
+              <a href="#" class="footer-btn">
+                <img src="./images/home-img/Group 95.png" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <hr class="footer-hr" />
+
+          <div class="footer-bottom-p">
+            <p>Copyright@2025SkySwift, All rights reserved.</p>
+            <figure><img src="./images/home-img/Group 96.png" alt="" /></figure>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- popper js cdn-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootatrap js cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- custom js -->
+    <script src="./js/drone.js"></script>
+  </body>
+</html>

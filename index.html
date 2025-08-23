@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME PAGE</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- favicon cdn -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/brands.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/solid.min.css"
+    />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-light" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./images/home-img/ChatGPT Image May 23, 2025, 05_26_52 PM 1.png"
+              alt="logo"
+            />
+            <img src="./images/home-img/SkySwift.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="drone.html">Drones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="nav-icons">
+            <li>
+              <a href="#" id="searchIcon">
+                <img
+                  src="./images/home-img/material-symbols_search.png"
+                  alt="icon"
+                />
+              </a>
+
+              <!-- Hidden Search Box -->
+              <div class="search-box" id="searchBox">
+                <input type="text" placeholder="Search..." />
+              </div>
+            </li>
+            <li>
+              <a href="login.html" class="login-icon">
+                <img
+                  src="./images/home-img/mdi_account-outline.png"
+                  alt="icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner">
+        <div class="container">
+          <div class="banner-content">
+            <div class="banner-img-row banner-row-1">
+              <figure>
+                <img src="./images/home-img/Group 83.png" alt="" />
+              </figure>
+              <figure>
+                <img src="./images/home-img/Group 84.png" alt="" />
+              </figure>
+            </div>
+            <div class="banner-img-row">
+              <figure>
+                <img src="./images/home-img/Group 84.png" alt="" />
+              </figure>
+              <figure>
+                <img
+                  src="./images/home-img/Group 90.png"
+                  class="banner-img-4"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+
+          <h1 class="text-center">Stay Airborne</h1>
+        </div>
+      </section>
+
+      <section class="service-heading-top service">
+        <div class="heading-top">
+          <div class="container">
+            <div class="heading-top-h1">
+              <h1 class="text-center">
+                Drone at your service - Fast, Frictionless, Futuristic
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-heading">
+          <div class="container">
+            <h2 class="text-center"><u>Our Services</u></h2>
+            <p class="text-center">
+              Elevating Perspectives: Premium Drone <br />
+              Solutions for Every Need
+            </p>
+
+            <!-- Swiper container -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <!-- Swiper Slide 1 -->
+                <div class="swiper-slide">
+                  <div class="card service-cards service-card-1">
+                    <h1>LiDAR Survey</h1>
+                    <a href="#" class="secvice-btns">Book Now</a>
+                  </div>
+                </div>
+
+                <!-- Swiper Slide 2 -->
+                <div class="swiper-slide">
+                  <div class="card service-cards service-card-2">
+                    <h1>Agriculture</h1>
+                    <a href="#" class="secvice-btns">Book Now</a>
+                  </div>
+                </div>
+
+                <!-- Swiper Slide 3 -->
+                <div class="swiper-slide">
+                  <div class="card service-cards service-card-3">
+                    <h1>Travel videography/ Photography</h1>
+                    <a href="#" class="secvice-btns">Book Now</a>
+                  </div>
+                </div>
+
+                <!-- Swiper Slide 4 -->
+                <div class="swiper-slide">
+                  <div class="card service-cards service-card-4">
+                    <h1>Wedding videography/ Photography</h1>
+                    <a href="#" class="secvice-btns">Book Now</a>
+                  </div>
+                </div>
+
+                <!-- Swiper Slide 2 -->
+                <div class="swiper-slide">
+                  <div class="card service-cards service-card-2">
+                    <h1>Agriculture</h1>
+                    <a href="#" class="secvice-btns">Book Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pagination-img">
+              <a href="#"
+                ><img src="./images/home-img/Group 62.png" alt=""
+              /></a>
+              <a href="#"
+                ><img src="./images/home-img/Group 63.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-end-heading">
+          <h2 class="text-center">
+            Swift service-Powered by expert precision.
+          </h2>
+        </div>
+      </section>
+
+      <section class="choose-us section-padding">
+        <div class="container">
+          <h2 class="text-center"><u>Why choose Us</u></h2>
+          <div class="choose-para choose-para1">
+            <span>01</span>
+            <p class="choose-p">
+              <b>Professional Expertise –</b> Our team brings industry-leading
+              experience, ensuring top-tier drone solutions for every need.
+            </p>
+          </div>
+          <div class="choose-para choose-para2">
+            <span>02</span>
+            <p class="choose-p">
+              <b>Custom Visual Solutions –</b> Tailored aerial photography,
+              videography, and surveys designed to match your unique
+              requirements.
+            </p>
+          </div>
+          <div class="choose-para choose-para3">
+            <span>03</span>
+            <p class="choose-p">
+              <b>Cutting-Edge Technology –</b> We leverage advanced drone
+              innovations for seamless deliveries, data collection, and
+              specialized services
+            </p>
+          </div>
+          <div class="choose-img">
+            <img
+              src="./images/home-img/3cfb9c22-c08e-4091-9f7e-d1793cb12901-removebg-preview 1.png"
+              alt=""
+            />
+          </div>
+          <div class="choose-para choose-para4">
+            <span>04</span>
+            <p class="choose-p">
+              <b>Reliable & Scalable Operations –</b> Whether it’s small
+              projects or large-scale deployments, our drones adapt to any
+              demand with efficiency.
+            </p>
+          </div>
+          <div class="choose-para choose-para5">
+            <span>05</span>
+            <p class="choose-p">
+              <b>Safety & Compliance Guaranteed –</b> We follow strict
+              regulations and safety protocols to ensure secure and legal drone
+              operations
+            </p>
+          </div>
+          <div class="choose-para choose-para6">
+            <span>06</span>
+            <p class="choose-p">
+              <b>Safety & Compliance Guaranteed –</b> We follow strict
+              regulations and safety protocols to ensure secure and legal drone
+              operations
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="approach">
+        <h2 class="text-center">
+          Reliable speed,handled by skilled operators.
+        </h2>
+
+        <div class="container">
+          <h3 class="text-center"><u>Our Approach</u></h3>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <h2 class="review-heading-top text-center">
+          Swift service - Powered by expert precision.
+        </h2>
+        <div class="container">
+          <h3 class="text-center"><u>Reviews</u></h3>
+
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="review-card-1">
+                <img
+                  src="./images/home-img/Group 91.png"
+                  class="review-card-img-1"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="review-card-2">
+                <img
+                  src="./images/home-img/Group 84 (1).png"
+                  class="review-card-img-2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+              <div class="review-card-3">
+                <img
+                  src="./images/home-img/Group 85.png"
+                  class="review-card-img-3"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-12 col-md-6">
+              <div class="review-card-4">
+                <img
+                  src="./images/home-img/Group 87.png"
+                  class="review-card-img-4"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="review-card-5">
+                <img
+                  src="./images/home-img/Group 88.png"
+                  class="review-card-img-5"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-5">
+            <div class="col-12 col-md-6">
+              <div class="review-card-6">
+                <img
+                  src="./images/home-img/Group 89.png"
+                  class="review-card-img-6"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="review-card-7">
+                <img
+                  src="./images/home-img/Group 90 (1).png"
+                  class="review-card-img-7"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="drone-show">
+        <h2 class="text-center">
+          Drone at your service - Fast, Frictionless, Futuristic
+        </h2>
+        <div class="container">
+          <div class="contents">
+            <h1 class="text-center">
+              Bring the sky to life with <br />
+              Spectacular Drone Show!
+            </h1>
+            <p class="text-center">
+              Planning an event? Let SkySwift create a breathtaking experience
+              with our amazing drone shows
+            </p>
+            <a href="#" class="drone-show-btn"
+              >Request a quote for your event</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="credibility section-padding">
+        <div class="container">
+          <h2 class="text-center"><u>Our Credibility</u></h2>
+
+          <h3 class="text-center">Certified, Discreet, AI-powered</h3>
+          <div class="row">
+            <div class="col-12 col-sm-4 col-md-4 mb-5">
+              <div class="credibility-cards">
+                <img src="./images/home-img/Group 6.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 mb-5">
+              <div class="credibility-cards">
+                <img src="./images/home-img/Group 7 (5).png" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 mb-5">
+              <div class="credibility-cards">
+                <img src="./images/home-img/Group 8.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="credibility-footer">
+            <img src="./images/home-img/Group 93.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="logos">
+        <h2 class="text-center">Swift service-Powered by expert precision.</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-4 col-sm-4 col-md-4">
+              <figure class="logo-items">
+                <img src="./images/home-img/image 1.png" alt="" />
+              </figure>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4">
+              <figure class="logo-items">
+                <img src="./images/home-img/image 2 (2).png" alt="" />
+              </figure>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4">
+              <figure class="logo-items">
+                <img src="./images/home-img/image 3.png" alt="" />
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 col-sm-4 col-md-4">
+              <figure class="logo-items">
+                <img
+                  src="./images/home-img/Our Partners.png"
+                  class="partners"
+                  alt=""
+                />
+              </figure>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4">
+              <figure class="logo-items">
+                <img src="./images/home-img/image 4.png" alt="" />
+              </figure>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4">
+              <figure class="logo-items">
+                <img src="./images/home-img/image 5.png" alt="" />
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 col-sm-4 col-md-4">
+              <figure class="logo-items">
+                <img src="./images/home-img/image 6.png" alt="" />
+              </figure>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4">
+              <figure class="logo-items">
+                <img src="./images/home-img/image 7 (1).png" alt="" />
+              </figure>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4">
+              <figure class="logo-items">
+                <img
+                  src="./images/home-img/image 8 (1).png"
+                  class="last-logo"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="futuristic">
+        <h2 class="text-center">
+          Drone at your service - Fast, Frictionless, Futuristic
+        </h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 mb-5">
+              <h3>SkySwift Mobile App: Precision at Your Fingertips.</h3>
+              <h4>“Seamless Aerial Solutions, Anytime, Anywhere."</h4>
+              <p>
+                The SkySwift mobile app brings seamless drone services to your
+                device, making aerial solutions more accessible than ever.
+                <br />Whether capturing breathtaking aerial shots or optimizing
+                field surveys,SkySwift App ensures efficiency, speed, and
+                control—all from your smartphon
+              </p>
+              <div class="futuristic-logos">
+                <div class="apple-logos">
+                  <fgure
+                    ><img src="./images/home-img/image 54.png" alt=""
+                  /></fgure>
+                  <fgure
+                    ><img src="./images/home-img/image 55.png" alt=""
+                  /></fgure>
+                </div>
+                <div class="qr-scanner">
+                  <figure>
+                    <img src="./images/home-img/bi_qr-code.png" alt="" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6">
+              <figure class="mobile-img">
+                <img src="./images/home-img/4249947_90966 1.png" alt="" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-12 col-sm-4 col-md-4 footer-item-1">
+            <h3>Get In Touch</h3>
+            <figure>
+              <a href="#"
+                ><img src="./images/home-img/Group 54.png" alt=""
+              /></a>
+            </figure>
+            <figure>
+              <a href="#"
+                ><img src="./images/home-img/Group 55.png" alt=""
+              /></a>
+            </figure>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4 footer-item-2">
+            <figure>
+              <a href="#"
+                ><img src="./images/home-img/Group 94 (1).png" alt=""
+              /></a>
+            </figure>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. nuhbh
+              mvdq juhgfd jjkkk Maecenas viverra t aliquet.
+            </p>
+            <figure class="footer-icons">
+              <a href="#">
+                <img src="./images/home-img/Group 50.png" alt="" />
+              </a>
+            </figure>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4 footer-item-3">
+            <h3>Newsletter</h3>
+            <p>
+              Sign up oue newsletter to get update information, news and free
+              insight.
+            </p>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <a href="#" class="footer-btn">
+              <img src="./images/home-img/Group 95.png" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <hr class="footer-hr" />
+
+        <div class="footer-bottom-p">
+          <p>Copyright@2025SkySwift, All rights reserved.</p>
+          <figure><img src="./images/home-img/Group 96.png" alt="" /></figure>
+        </div>
+      </div>
+    </footer>
+
+    <!-- popper js cdn-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootatrap js cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 3000, // Slides every 3 seconds
+          disableOnInteraction: false, // Autoplay continues even if the user interacts
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        slidesPerView: 1,
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+          1199: {
+            slidesPerView: 4,
+          },
+        },
+      });
+    </script>
+
+    <!-- jquery js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- custom js -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

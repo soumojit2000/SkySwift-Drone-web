@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* font-family: "Orbitron", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Orbitron", sans-serif;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+/* common elements */
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* common class */
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.section-padding {
+  padding-top: 86px;
+  padding-bottom: 86px;
+}
+.login-img img {
+  height: 100%;
+  width: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 16px 30px;
+  border: 1px solid #7f7f7f;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]::placeholder {
+  font-size: 15px;
+}
+
+.login-btn {
+  display: block;
+  width: 100%;
+}
+.register-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.google-apple-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.social-btn {
+  padding: 10px 24px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.social-btn img {
+  max-width: none;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.form-container h2,
+p {
+  margin-bottom: 30px;
+}
+.form-container h2 {
+  font-size: 36px;
+  margin-top: 50px;
+}
+.form-container p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.form-container p span {
+  color: #ff9f2f;
+  margin-left: 10px;
+}
+.checkbox-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+label[for="agree"] {
+  font-size: clamp(5px, 3vw, 15px);
+  font-weight: bolder;
+}
+label[for="agree"] span {
+  color: #ff9f2f;
+}
+.login-btn {
+  padding: 18px 0;
+  background-color: #ff9f2f;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.back-btn {
+  padding: 14px 40px;
+  background-color: #ff9f2f;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
