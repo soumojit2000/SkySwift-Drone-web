@@ -315,7 +315,7 @@ section:last-of-type {
 .video-img img{
   margin: 0 auto;
   margin-top: clamp(60px,15vh,130px);
-  height: clamp(50px,14vw,130px);
+  height: clamp(50px,14vh,130px);
 }
 /* reviews */
 
