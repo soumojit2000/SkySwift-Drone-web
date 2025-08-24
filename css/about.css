@@ -57,7 +57,7 @@ ul {
 }
 .nav-link {
   color: #111111;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
   font-family: "Orbitron", sans-serif;
   font-weight: 500;
 }
