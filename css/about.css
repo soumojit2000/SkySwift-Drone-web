@@ -143,6 +143,16 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 22px;
+    padding-top: 10px;
+    transition: all 0.5s ease;
+}
+.leadership-cards{
+  
+
+}
+.leadership-cards:hover{
+  transform: scale(1.05);
+  box-shadow: 2px 3px 10px rgba(136, 133, 133, 0.308);
 }
 .leadership-heading {
     margin-bottom: clamp(15px,6vh,62px);
