@@ -40,9 +40,9 @@ $(document).ready(function(){
       return false;
     }
 
-    // যদি সব ঠিক থাকে
+    
     alert("Form submitted successfully!");
-    this.submit(); // আসল ফর্ম সাবমিট করো
+    this.submit(); 
   });
 
 });
