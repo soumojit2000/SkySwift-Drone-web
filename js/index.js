@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   thumb.addEventListener("click", function () {
     // bringing iframe
     const iframe = document.createElement("iframe");
-    iframe.src = "https://www.youtube.com/embed/kcfs1-ryKWE?autoplay=1&rel=0&modestbranding=1";
+    iframe.src = "https://www.youtube.com/embed/G1hKzCkywM8?autoplay=1&rel=0&modestbranding=1";
     iframe.width = "1360";
     iframe.height = "550";
     iframe.title = "YouTube video player";
